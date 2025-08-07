@@ -6,6 +6,8 @@ export default defineConfig({
 	plugins: [tailwindcss(),
 	sveltekit()],
 	server: {
+		host: true,
+		port: 5173,
 		watch: {
 			ignored: ['**/babak.json', '**/paket_soal.json']
 		}

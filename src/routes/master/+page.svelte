@@ -50,7 +50,7 @@
         socket.emit("reqSoal", paket);
     }
 
-    function sendPilihanGanda(jawaban) {
+    function sendPilihanGanda(jawaban, hideAnswer = false) {
         if (selectedTeam === null || !programSoal?.poin) return;
         const correctAnswer = programSoal.jawaban;
         console.log({
@@ -72,12 +72,13 @@
             correct: isCorrect,
             dataSend: programSoal,
             userJawab: jawaban,
+            hideAnswer,
         };
         socket.emit("reqPoinTeam", data);
         selectTeam(null);
     }
 
-    function sendRespondUraian(isCorrect) {
+    function sendRespondUraian(isCorrect, hideAnswer = false) {
         if (selectedTeam === null || !programSoal?.poin) return;
         const data = {
             index: selectedTeam,
@@ -86,6 +87,7 @@
             teamIndex: selectedTeam,
             correct: isCorrect,
             dataSend: programSoal,
+            hideAnswer,
         };
         if (isCorrect) {
             socket.emit("reqIsAnswered", {
@@ -124,8 +126,6 @@
             socket.emit("reqChange", data);
         }
     }
-
-   
 
     onMount(() => {
         status = "connecting";
@@ -199,10 +199,9 @@
                 paket,
             } = programData;
 
-            // Helper to start timeout countdown after soal is shown
             function startTimeoutCountdown(timeoutValue) {
                 let timeoutCount = timeoutValue || 5;
-                // Set countdown immediately to ensure UI is updated
+
                 programSoal = {
                     ...programSoal,
                     countdown: timeoutCount,
@@ -477,9 +476,80 @@
                                 </div>
                             {/if}
                         </div>
+                        <div class="border my-4 gap-x-2 flex">
+                            {#if programSoal.type === "opsi"}
+                                <div class="p-2">
+                                    <p>
+                                        Answer Pilihan Ganda (Not Reveal Answer)
+                                    </p>
+                                    <div class="flex gap-x-3">
+                                        <button
+                                            class="w-14 h-14 rounded-sm bg-red-600"
+                                            onclick={() =>
+                                                sendPilihanGanda(0, true)}
+                                            >A</button
+                                        >
+                                        <button
+                                            class="w-14 h-14 rounded-sm bg-blue-600"
+                                            onclick={() =>
+                                                sendPilihanGanda(1, true)}
+                                            >B</button
+                                        >
+                                        <button
+                                            class="w-14 h-14 rounded-sm bg-purple-600"
+                                            onclick={() =>
+                                                sendPilihanGanda(2, true)}
+                                            >C</button
+                                        >
+                                        <button
+                                            class="w-14 h-14 rounded-sm bg-amber-400"
+                                            onclick={() =>
+                                                sendPilihanGanda(3, true)}
+                                            >D</button
+                                        >
+                                    </div>
+                                </div>
+                            {/if}
+                            {#if programSoal.type === "uraian"}
+                                <div class="border-l p-2 space-y-2">
+                                    <p>Answer Uraian (Not Reveal Answer)</p>
+                                    <div
+                                        class="flex gap-x-3 items-center justify-center"
+                                    >
+                                        <button
+                                            class="w-12 h-12 rounded-sm bg-green-600"
+                                            onclick={sendRespondUraian.bind(
+                                                null,
+                                                true,
+                                                true,
+                                            )}>Benar</button
+                                        >
+                                        <button
+                                            class="w-12 h-12 rounded-sm bg-red-600"
+                                            onclick={sendRespondUraian.bind(
+                                                null,
+                                                false,
+                                                true,
+                                            )}>Salah</button
+                                        >
+                                    </div>
+                                </div>
+                            {/if}
+                        </div>
                     </div>
                 </div>
             {/if}
+            <div class="mt-4 border p-2">
+                <p class="font-semibold">Sound Effect</p>
+                <div class=" mt-4 flex items-center gap-x-2">
+                    <button class="bg-green-400 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "benar")
+                    }}>Benar</button>
+                    <button class="bg-red-400 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "salah")
+                    }}>Salah</button>
+                </div>
+            </div>
         </div>
         <div class="border border-white w-8/12 space-y-2 p-3">
             <div class="border p-2">
@@ -619,6 +689,14 @@
                             }}
                         >
                             Mark Done
+                        </button>
+                        <button
+                            class="bg-amber-700 text-black px-4 py-2"
+                            onclick={() => {
+                                socket.emit("startTimer");
+                            }}
+                        >
+                            Start Timer
                         </button>
                     {/if}
                 </div>

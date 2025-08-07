@@ -1,11 +1,11 @@
 {
-  "timA_Easy": {
+  "bid1_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
       {
         "id": 1,
-        "isAnswered": true,
+        "isAnswered": false,
         "type": "opsi",
         "soal": "Kepanjangan dari HEI adalah",
         "options": [
@@ -46,7 +46,7 @@
       }
     ]
   },
-  "timA_Medium": {
+  "bid1_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -91,9 +91,9 @@
       }
     ]
   },
-  "timA_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "bid1_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
       {
         "id": 1,
@@ -142,7 +142,7 @@
       }
     ]
   },
-  "timB_Easy": {
+  "direk_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -193,7 +193,7 @@
       }
     ]
   },
-  "timB_Medium": {
+  "direk_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -238,60 +238,58 @@
       }
     ]
   },
-  "timB_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "direk_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
-      [
-        {
-          "id": 7,
-          "isAnswered": false,
-          "type": "opsi",
-          "poin": 10,
-          "minus": 0,
-          "soal": "Yang bukan merupakan umpatan dalam bahasa Banyumasan?..",
-          "options": [
-            "Sih lah!",
-            "Ngob!",
-            "Jancuk",
-            "Pejring!"
-          ],
-          "jawaban": 2
-        },
-        {
-          "id": 8,
-          "isAnswered": false,
-          "type": "opsi",
-          "poin": 10,
-          "minus": 0,
-          "soal": "Bahlil Lahadalia menyelesaikan disertasinya dan memperoleh gelar doktor secara kontroversial dalam waktu berapa lama?",
-          "options": [
-            "12 bulan",
-            "18 bulan",
-            "20 bulan",
-            "24 bulan"
-          ],
-          "jawaban": 2
-        },
-        {
-          "id": 9,
-          "isAnswered": false,
-          "type": "opsi",
-          "poin": 10,
-          "minus": 0,
-          "soal": "Siapa artis pria Indonesia yang dikenal sering nyanyi, nyaleg, ngaji, terus nikah, terus cerai, terus nyanyi lagi?",
-          "options": [
-            "Aldi Taher",
-            "Didi Kempot",
-            "Vicky Prasetyo",
-            "Denny Sumargo"
-          ],
-          "jawaban": 0
-        }
-      ]
+      {
+        "id": 7,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Yang bukan merupakan umpatan dalam bahasa Banyumasan?..",
+        "options": [
+          "Sih lah!",
+          "Ngob!",
+          "Jancuk",
+          "Pejring!"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 8,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Bahlil Lahadalia menyelesaikan disertasinya dan memperoleh gelar doktor secara kontroversial dalam waktu berapa lama?",
+        "options": [
+          "12 bulan",
+          "18 bulan",
+          "20 bulan",
+          "24 bulan"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 9,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Siapa artis pria Indonesia yang dikenal sering nyanyi, nyaleg, ngaji, terus nikah, terus cerai, terus nyanyi lagi?",
+        "options": [
+          "Aldi Taher",
+          "Didi Kempot",
+          "Vicky Prasetyo",
+          "Denny Sumargo"
+        ],
+        "jawaban": 0
+      }
     ]
   },
-  "timC_Easy": {
+  "iot_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -336,7 +334,7 @@
       }
     ]
   },
-  "timC_Medium": {
+  "iot_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -375,9 +373,9 @@
       }
     ]
   },
-  "timC_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "iot_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
       {
         "id": 16,
@@ -420,7 +418,7 @@
       }
     ]
   },
-  "timD_Easy": {
+  "bid2_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -465,7 +463,7 @@
       }
     ]
   },
-  "timD_Medium": {
+  "bid2_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -510,9 +508,9 @@
       }
     ]
   },
-  "timD_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "bid2_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
       {
         "id": 25,
@@ -551,7 +549,7 @@
       }
     ]
   },
-  "timE_Easy": {
+  "tt_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -596,7 +594,7 @@
       }
     ]
   },
-  "timE_Medium": {
+  "tt_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -641,13 +639,13 @@
       }
     ]
   },
-  "timE_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "tt_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
       {
         "id": 35,
-        "isAnswered": true,
+        "isAnswered": false,
         "type": "opsi",
         "soal": "Berapakah total luas lahan Telkom Univerity Bandung?",
         "options": [
@@ -660,7 +658,7 @@
       },
       {
         "id": 36,
-        "isAnswered": true,
+        "isAnswered": false,
         "type": "opsi",
         "soal": "Suzanna pertama kali bertemu Cliff Sangra saat syuting film…",
         "options": [
@@ -673,7 +671,7 @@
       },
       {
         "id": 37,
-        "isAnswered": true,
+        "isAnswered": false,
         "type": "opsi",
         "soal": "Lengkapilah lirik lagu berikut ini dengan pilihan jawaban yang paling tepat:\n\nKamu segalanya, tak terpisah oleh waktu\nBiarkan bumi menolak, ku tetap cinta kamu\nBiar mamamu tak suka, papamu juga melarang",
         "options": [
@@ -686,7 +684,7 @@
       }
     ]
   },
-  "timF_Easy": {
+  "dsp_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -731,7 +729,7 @@
       }
     ]
   },
-  "timF_Medium": {
+  "dsp_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -776,9 +774,9 @@
       }
     ]
   },
-  "timF_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "dsp_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
       {
         "id": 44,
@@ -821,7 +819,7 @@
       }
     ]
   },
-  "timG_Easy": {
+  "dc_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -866,7 +864,7 @@
       }
     ]
   },
-  "timG_Medium": {
+  "dc_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -911,9 +909,9 @@
       }
     ]
   },
-  "timG_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "dc_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
       {
         "id": 7,
@@ -956,7 +954,7 @@
       }
     ]
   },
-  "timH_Easy": {
+  "penunjang_Easy": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -1001,7 +999,7 @@
       }
     ]
   },
-  "timH_Medium": {
+  "penunjang_Medium": {
     "poin": 10,
     "minus": 0,
     "data": [
@@ -1046,9 +1044,9 @@
       }
     ]
   },
-  "timH_Hard": {
-    "poin": 10,
-    "minus": 0,
+  "penunjang_Hard": {
+    "poin": 5,
+    "minus": -5,
     "data": [
       {
         "id": 16,
@@ -1079,8 +1077,8 @@
     ]
   },
   "rebutan_1": {
-    "poin": 10,
-    "minus": 0,
+    "poin": 20,
+    "minus": -10,
     "data": [
       {
         "id": 18,
@@ -1148,8 +1146,8 @@
     ]
   },
   "rebutan_2": {
-    "poin": 10,
-    "minus": 0,
+    "poin": 20,
+    "minus": -10,
     "data": [
       {
         "id": 27,
@@ -1224,8 +1222,8 @@
     ]
   },
   "rebutan_3": {
-    "poin": 10,
-    "minus": 0,
+    "poin": 20,
+    "minus": -10,
     "data": [
       {
         "id": 37,
@@ -1258,12 +1256,12 @@
     ]
   },
   "rebutan_final": {
-    "poin": 10,
-    "minus": 0,
+    "poin": 20,
+    "minus": -10,
     "data": [
       {
         "id": 41,
-        "isAnswered": true,
+        "isAnswered": false,
         "type": "uraian",
         "soal": "Apa lawan kata dari 'haus'?",
         "jawaban": "palum"
