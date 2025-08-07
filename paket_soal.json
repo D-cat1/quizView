@@ -1,0 +1,1350 @@
+{
+  "timA_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 1,
+        "isAnswered": true,
+        "type": "opsi",
+        "soal": "Kepanjangan dari HEI adalah",
+        "options": [
+          "Honesty, Empathy, Innovation",
+          "Harmony, Excellence, Integrity",
+          "Humanity, Equality, Intelligence",
+          "Honor, Education, Innovation"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 2,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Berapa jumlah fakultas yang ada di Telkom University?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 3,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Siapa Direktur Telkom University Surabaya?",
+        "options": [
+          "Dr. Ir. Agus Achmad Suhendra, M.T.",
+          "Dr. Mohammad Yanuar Hariyawan, S.T., M.T.",
+          "Dr. Tenia Wahyuningrum, S.Kom., M.T.",
+          "Prof. Dr. Farida Titik Kristanti"
+        ],
+        "jawaban": 1
+      }
+    ]
+  },
+  "timA_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 1,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Nama lain Bu Tenia adalah..",
+        "options": [
+          "Jennifer Aniston",
+          "Jennifer Hudson",
+          "Jeniffer Lopez",
+          "Jeniffer Parabola"
+        ],
+        "jawaban": 3
+      },
+      {
+        "id": 2,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Bilangan yang hanya terdiri dari angka 0 dan 1 disebut bilangan…",
+        "options": [
+          "Desimal",
+          "Biner",
+          "Oktal",
+          "Hexa"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 3,
+        "isAnswered": false,
+        "type": "uraian",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Sambung lirik berikut : 'Telkom University..'",
+        "jawaban": "Sinergi bangun negeri"
+      }
+    ]
+  },
+  "timA_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 1,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Perang Dunia I berakhir dengan ditandatanganinya…",
+        "options": [
+          "Traktat Versailles",
+          "Piagam Atlantik",
+          "Perjanjian Yalta",
+          "Traktat Paris"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 2,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "GDP per kapita dihitung dari…",
+        "options": [
+          "PDB dibagi total ekspor",
+          "PDB dibagi jumlah penduduk",
+          "PDB dibagi total investasi",
+          "Total pendapatan nasional"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 3,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Lagu “Judi” versi Rhoma Irama & Soneta Group terdapat dalam album ke‑berapa?",
+        "options": [
+          "Soneta Volume 12",
+          "Soneta Volume 13",
+          "Soneta Volume 14",
+          "Soneta Volume 1"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timB_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 1,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Yang BUKAN termasuk nilai dalam HEI adalah…",
+        "options": [
+          "Harmony",
+          "Excellence",
+          "Innovation",
+          "Integrity"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 2,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Manakah di bawah ini yang bukan nama fakultas di Telkom University?",
+        "options": [
+          "Fakultas Ilmu Terapan",
+          "Fakultas Teknik Elektro",
+          "Fakultas Ekonomi dan Bisnis",
+          "Fakultas Teknologi Informasi dan Komunikasi"
+        ],
+        "jawaban": 3
+      },
+      {
+        "id": 3,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Siapa Dekan Fakultas Informatika periode 2025–2030?",
+        "options": [
+          "Prof. Dr. Achmad Rizal",
+          "Dr. Kemas Muslim",
+          "Dr. Iis Kurnia Nurhayati",
+          "Prof. Dr. Farida Titik Kristanti"
+        ],
+        "jawaban": 1
+      }
+    ]
+  },
+  "timB_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 4,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Larutan yang memiliki pH di bawah 7 bersifat…",
+        "options": [
+          "Netral",
+          "Basa",
+          "Asam",
+          "Oksidator"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 5,
+        "isAnswered": false,
+        "type": "opsi",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Apa nama rover NASA yang dikirim ke Mars pada 2021?",
+        "options": [
+          "Pathfinder",
+          "Opportunity",
+          "Perseverance",
+          "Curiosity"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 6,
+        "isAnswered": false,
+        "type": "uraian",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Sambung lirik lagu ini: 'Hanya ingin kau tahu, isi di hatiku...'",
+        "jawaban": "Kaulah yang terakhir dalam hidupku"
+      }
+    ]
+  },
+  "timB_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      [
+        {
+          "id": 7,
+          "isAnswered": false,
+          "type": "opsi",
+          "poin": 10,
+          "minus": 0,
+          "soal": "Yang bukan merupakan umpatan dalam bahasa Banyumasan?..",
+          "options": [
+            "Sih lah!",
+            "Ngob!",
+            "Jancuk",
+            "Pejring!"
+          ],
+          "jawaban": 2
+        },
+        {
+          "id": 8,
+          "isAnswered": false,
+          "type": "opsi",
+          "poin": 10,
+          "minus": 0,
+          "soal": "Bahlil Lahadalia menyelesaikan disertasinya dan memperoleh gelar doktor secara kontroversial dalam waktu berapa lama?",
+          "options": [
+            "12 bulan",
+            "18 bulan",
+            "20 bulan",
+            "24 bulan"
+          ],
+          "jawaban": 2
+        },
+        {
+          "id": 9,
+          "isAnswered": false,
+          "type": "opsi",
+          "poin": 10,
+          "minus": 0,
+          "soal": "Siapa artis pria Indonesia yang dikenal sering nyanyi, nyaleg, ngaji, terus nikah, terus cerai, terus nyanyi lagi?",
+          "options": [
+            "Aldi Taher",
+            "Didi Kempot",
+            "Vicky Prasetyo",
+            "Denny Sumargo"
+          ],
+          "jawaban": 0
+        }
+      ]
+    ]
+  },
+  "timC_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 10,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Nilai HEI yang mengutamakan kualitas kerja, hasil terbaik, dan pencapaian adalah…",
+        "options": [
+          "Integrity",
+          "Harmony",
+          "Excellence",
+          "Diligence"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 11,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "IT Telkom Jakarta sebelumnya bernama…",
+        "options": [
+          "Akademi Teknik Telekomunikasi Telkom Jakarta",
+          "Akademi Teknik Telekomunikasi Sandhy Putra Jakarta",
+          "ST3 Telkom Jakarta",
+          "Politeknik Telkom Jakarta"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 12,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa Wakil Ketua (VP) Human Capital YPT?",
+        "options": [
+          "Suyarti",
+          "Kiki Sudiana",
+          "Mohamad Veni Raharja",
+          "Jauharun Ni’am"
+        ],
+        "jawaban": 1
+      }
+    ]
+  },
+  "timC_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 13,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Hormon yang dihasilkan oleh pankreas untuk mengontrol kadar gula darah adalah…",
+        "options": [
+          "Adrenalin",
+          "Insulin",
+          "Tiroksin",
+          "Estrogen"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 14,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Komponen utama dari matahari adalah...",
+        "options": [
+          "Karbon",
+          "Oksigen",
+          "Helium dan hidrogen",
+          "Nitrogen"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 15,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sambung lirik lagu ini: 'Ku ingin kau tahu, diriku di sini menanti dirimu…'",
+        "jawaban": "Meski ku di sini dan kau di sana, kita memandang langit yang sama"
+      }
+    ]
+  },
+  "timC_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 16,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapakah nama kakak tiri laki-laki dari Kim Jong-un?",
+        "options": [
+          "Kim Kong-ming",
+          "Kim Jong-nam",
+          "Kim Soo-hyun",
+          "Kimchi Jong-moon"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 17,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapakah Menteri Ekonomi dan Keuangan Kamboja saat ini?",
+        "options": [
+          "Aun Pornmoniroth",
+          "Prak Sokhonn",
+          "Sar Sokha",
+          "Hun Many"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 18,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa musisi yang geger karena dituding menghamili Erika Carlina?",
+        "options": [
+          "Raffi Ahmad",
+          "Young Lex",
+          "DJ Panda",
+          "Erix Soekamti"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timD_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 19,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Apa visi Telkom University yang ditargetkan tercapai pada tahun 2028?",
+        "options": [
+          "Menjadi World Class University berbasis Teknologi Digital",
+          "Menjadi Entrepreneurial University dengan Skala Internasional",
+          "Menjadi National Excellence Entrepreneurial University",
+          "Menjadi Perguruan Tinggi Swasta Terbaik se-Asia Tenggara"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 20,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "IT Telkom Purwokerto menyediakan Coffee Corner bernama…",
+        "options": [
+          "Tel-U Coffee",
+          "Hats Coffee",
+          "Telkom Café",
+          "Techno Coffee"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 21,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa Direktur Telkom University Jakarta (TUJ)?",
+        "options": [
+          "Dr. Ir. Agus Achmad Suhendra, M.T.",
+          "Dr. Mohammad Yanuar Hariyawan, S.T., M.T.",
+          "Dr. Tenia Wahyuningrum, S.Kom., M.T.",
+          "Dr. Bambang Setia Nugroho"
+        ],
+        "jawaban": 0
+      }
+    ]
+  },
+  "timD_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 22,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Proses perubahan air menjadi uap karena panas disebut…",
+        "options": [
+          "Kondensasi",
+          "Sublimasi",
+          "Evaporasi",
+          "Pembekuan"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 23,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Menghadap kemana meja Mba Ana Koperasi?",
+        "options": [
+          "Ngulon",
+          "Ngetan",
+          "Ngidul",
+          "Ngalor"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 24,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Gaya yang menyebabkan benda tetap berada di lintasannya saat berputar disebut...",
+        "options": [
+          "Gaya gesek",
+          "Gaya sentripetal",
+          "Gaya gravitasi",
+          "Gaya normal"
+        ],
+        "jawaban": 1
+      }
+    ]
+  },
+  "timD_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 25,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Konsep pendidikan terpadu yang diusung oleh YPT dikenal sebagai…",
+        "options": [
+          "Integrated Education Pipeline",
+          "One Pipe Education System",
+          "National Education System",
+          "Telkom Learning Model"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 26,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Berapa pasang tulang rusuk yang dimiliki manusia?",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "13"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 3,
+        "isAnswered": false,
+        "type": "uraian",
+        "poin": 10,
+        "minus": 0,
+        "soal": "Sambung lirik berikut : 'Telkom University..'",
+        "jawaban": "Sinergi bangun negeri"
+      }
+    ]
+  },
+  "timE_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 29,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Fasilitas inkubasi startup di bawah Telkom University dikenal sebagai…",
+        "options": [
+          "Innovation Center",
+          "Startup Hub",
+          "Bandung Techno Park",
+          "Center of Excellence"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 30,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Integrity diuji saat…",
+        "options": [
+          "Gajian telat",
+          "Ada kesempatan ngambil keuntungan pribadi",
+          "Punya hutang ke kantin",
+          "Load kerja tinggi, minim apresiasi"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 31,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapakah nama Wakil Rektor IV Telkom University periode 2025–2030?",
+        "options": [
+          "Dr. Henry Christiadi",
+          "Prof. Suyanto",
+          "Angga Rusdinar, S.T., M.T., Ph.D.",
+          "Parman Sukarno, S.T., M.Sc., Ph.D."
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timE_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 32,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Apa nama lengkap asli Mr. Krabs dalam serial SpongeBob SquarePants?",
+        "options": [
+          "Eugene Harold Krabs",
+          "Edward Henry Krabs",
+          "Eustace Homer Krabs",
+          "Elmer Howard Krabs"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 33,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya yang bekerja padanya. Pernyataan tersebut adalah …",
+        "options": [
+          "Hukum Newton I",
+          "Hukum Newton II",
+          "Hukum Newton III",
+          "Hukum Archimedes"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 34,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Lengkapilah bait berikut dengan pilihan yang paling tepat:\n\nMalam sunyi kuimpikanmu\nKulukiskan cita bersama\nNamun slalu aku bertanya …",
+        "options": [
+          "Adakah aku di mimpimu",
+          "Adakah kau di hatiku",
+          "Adakah aku di rindumu",
+          "Di hatimu terukir namamu"
+        ],
+        "jawaban": 0
+      }
+    ]
+  },
+  "timE_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 35,
+        "isAnswered": true,
+        "type": "opsi",
+        "soal": "Berapakah total luas lahan Telkom Univerity Bandung?",
+        "options": [
+          "53,2 hektar",
+          "47.5 hektar",
+          "1,5 hektar",
+          "48,7 hektar"
+        ],
+        "jawaban": 3
+      },
+      {
+        "id": 36,
+        "isAnswered": true,
+        "type": "opsi",
+        "soal": "Suzanna pertama kali bertemu Cliff Sangra saat syuting film…",
+        "options": [
+          "Malam Satu Suro",
+          "Ratu Ilmu Hitam",
+          "Sundel Bolong",
+          "Nyi Blorong"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 37,
+        "isAnswered": true,
+        "type": "opsi",
+        "soal": "Lengkapilah lirik lagu berikut ini dengan pilihan jawaban yang paling tepat:\n\nKamu segalanya, tak terpisah oleh waktu\nBiarkan bumi menolak, ku tetap cinta kamu\nBiar mamamu tak suka, papamu juga melarang",
+        "options": [
+          "Namun cintaku takkan pernah padam",
+          "Kita harus menyerah pada keadaan",
+          "Walau dunia menolak, ku tak takut katakan",
+          "Aku pergi tinggalkan semua kenangan"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timF_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 38,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Adit bekerja sebagai staf keuangan di sebuah perusahaan. Ia menemukan adanya kesalahan input data anggaran. Walaupun tidak ada yang mengetahuinya, Adit segera melapor ke atasan dan memperbaiki datanya.\nSikap Adit mencerminkan nilai...",
+        "options": [
+          "Kerja keras",
+          "Integrity",
+          "Disiplin",
+          "Loyalitas"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 39,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Prof. Dr. Ratri Wahyuningtyas menjabat sebagai Wakil Rektor Telkom University di bidang...",
+        "options": [
+          "Akademik",
+          "Sumber Daya",
+          "Admisi, Kemahasiswaan, dan Alumni",
+          "Kerja Sama dan Digitalisasi"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 40,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Visi ITTP di tahun 2024 meliputi hal berikut kecuali..",
+        "options": [
+          "Healthcare",
+          "Agro-Industri",
+          "Telecommunication",
+          "Small-medium Enterpize"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timF_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 41,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa pemeran utama Panji dalam sinetron Panji Manusia Millenium?",
+        "options": [
+          "Primus Yustisio",
+          "Ari Wibowo",
+          "Panji Petualang",
+          "Adjie Pangestu"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 42,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Apa istilah Banyumasan untuk terjatuh dengan posisi jatuh ke lubang?",
+        "options": [
+          "Kejeglong",
+          "Kejengkang",
+          "Kepaduk",
+          "Kesampar"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 43,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Daur air yang terjadi karena penguapan air oleh sinar matahari disebut…",
+        "options": [
+          "Kondensasi",
+          "Infiltrasi",
+          "Presipitasi",
+          "Evaporasi"
+        ],
+        "jawaban": 3
+      }
+    ]
+  },
+  "timF_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 44,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Dibawah ini contoh yang salah untuk penggunaan kata Banyumas \"Kesampak\" adalah :",
+        "options": [
+          "Aku nggoleti koe nganti kesampak",
+          "Runtaeh kesampak nang ndi ora",
+          "Azis tiba kesampak watu",
+          "Gole dolan kesampak temen"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 45,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Lengkapilah lirik lagu Jawa berikut ini:\n\n    Yen aku salah, tulung ngapuro…\n    Aku mung manungsa biasa…\n    Sing ora luput saka…",
+        "options": [
+          "Pangapura",
+          "Kliru",
+          "Dosane",
+          "Kepinginan"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 46,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Proses fotosintesis memerlukan bahan berikut, kecuali…",
+        "options": [
+          "Karbon dioksida",
+          "Air",
+          "Oksigen",
+          "Cahaya matahari"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timG_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 1,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Apa Nama Masjid besar di Telkom University Bandung?",
+        "options": [
+          "Masid Syaiful Qalbi",
+          "Masjid Syamsul 'Ulum",
+          "Masjid Ali bin Abithalib",
+          "Masjid Masjid Cyber Iman"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 2,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Pulau terbesar di Indonesia adalah...",
+        "options": [
+          "Bali",
+          "Kalimantan",
+          "Sumatra",
+          "Sulawesi"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 3,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Saat harga bensin naik, banyak orang beralih ke motor listrik. Ini menunjukkan adanya...",
+        "options": [
+          "Barang pelengkap",
+          "Barang inferior",
+          "Barang substitusi",
+          "Barang pokok"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timG_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 4,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Apa Nama Masjid besar di Telkom University Bandung?",
+        "options": [
+          "Masid Syaiful Qalbi",
+          "Masjid Syamsul 'Ulum",
+          "Masjid Ali bin Abithalib",
+          "Masjid Masjid Cyber Iman"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 5,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa wakil Indonesia dalam Konferensi Meja Bundar (KMB)?",
+        "options": [
+          "Mohammad Yamin",
+          "Sutan Sjahrir",
+          "Moh. Hatta",
+          "Soekarno"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 6,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa nama pemeran Mak Nyak dalam sinetron Si Doel Anak Sekolahan?",
+        "options": [
+          "Cornelia Agatha",
+          "Aminah Cendrakasih",
+          "Maudy Koesnaedi",
+          "Lenny Marlina"
+        ],
+        "jawaban": 1
+      }
+    ]
+  },
+  "timG_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 7,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa nama lengkap suami pedangdut Inul Daratista?",
+        "options": [
+          "Adam Sasongko",
+          "Fauza Khair",
+          "Wahyu Pamungkas",
+          "Adam Suseno"
+        ],
+        "jawaban": 3
+      },
+      {
+        "id": 8,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapakah nama komandan Securty di Telkom University Purwokerto?",
+        "options": [
+          "Poernowo",
+          "Purwanto",
+          "Parmono",
+          "Suratno"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 9,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Dibawah ini yang bukan contoh kalimat ngapak yang menggunakan Past Perfect Continuous Tense adalah :",
+        "options": [
+          "Tarso ngode limang taun sedurunge pindah pegawean",
+          "Wendi wis ngising 3 jam sedurung nyambutgawe",
+          "Vika lambene lemes awit gemiyen tekan siki",
+          "Pak Roso ganu mutung seminggu sedurunge Bu Ikoh Pindah"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "timH_Easy": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 10,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Berapa jumlah program studi yang ada di Telkom University?",
+        "options": [
+          "50",
+          "61",
+          "33",
+          "47"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 11,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Apa moto resmi Telkom University?",
+        "options": [
+          "Leading in Innovation",
+          "Creating the Future",
+          "Empowering Digital Society",
+          "Bridging Technology for Humanity"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 12,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Berikut ini adalah karyawan Krusty Krab, kecuali…",
+        "options": [
+          "SpongeBob",
+          "Squidward",
+          "Eugene",
+          "Sandy"
+        ],
+        "jawaban": 3
+      }
+    ]
+  },
+  "timH_Medium": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 13,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Pendaratan Sekutu ke Indonesia dengan membonceng NICA terjadi pada tahun?",
+        "options": [
+          "1943",
+          "1944",
+          "1945",
+          "1946"
+        ],
+        "jawaban": 2
+      },
+      {
+        "id": 14,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Planet yang paling mirip Bumi dan paling memungkinkan dihuni manusia adalah...",
+        "options": [
+          "Mars",
+          "Venus",
+          "Saturnus",
+          "Jupiter"
+        ],
+        "jawaban": 0
+      },
+      {
+        "id": 15,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Nilai guna suatu barang yang bisa digunakan berkali-kali disebut...",
+        "options": [
+          "Nilai pakai",
+          "Nilai tukar",
+          "Nilai produksi",
+          "Nilai ekonomi"
+        ],
+        "jawaban": 0
+      }
+    ]
+  },
+  "timH_Hard": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 16,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa nama lengkap ayah keluarga The Simpson?",
+        "options": [
+          "Bart Simpson",
+          "Homer Simpson",
+          "Abraham Simpson",
+          "Clancy Simpson"
+        ],
+        "jawaban": 1
+      },
+      {
+        "id": 17,
+        "isAnswered": false,
+        "type": "opsi",
+        "soal": "Siapa yang menjadi juara Piala Dunia FIFA 2014 yang diselenggarakan di Brasil setelah mengalahkan Argentina di final?",
+        "options": [
+          "Spanyol",
+          "Italia",
+          "Jerman",
+          "Prancis"
+        ],
+        "jawaban": 2
+      }
+    ]
+  },
+  "rebutan_1": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 18,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Siapakah nama anak kedua dari Presiden Soeharto?",
+        "jawaban": "Siti Hediati Hariyadi"
+      },
+      {
+        "id": 19,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Lagu apa yang diciptakan Ahmad Dhani untuk menggambarkan perasaannya setelah bercerai dengan Maia Estianty?",
+        "jawaban": "Sudah"
+      },
+      {
+        "id": 20,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Berapakah Kode Pos Kecamatan Purwokerto Selatan?",
+        "jawaban": "53147"
+      },
+      {
+        "id": 21,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sebelum ada NDE, apa media komunikasi formal yang digunakan di ITTP?",
+        "jawaban": "memo online"
+      },
+      {
+        "id": 22,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Berapakah ketinggian menara Teratai (Menara Pandang)?",
+        "jawaban": "110 meter"
+      },
+      {
+        "id": 23,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Desa Pliken terletak di Kecamatan apa?",
+        "jawaban": "Kecamatan Kembaran"
+      },
+      {
+        "id": 24,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Siapa Nama PGS Kepala Sekolah SMK Telkom Purwokerto?",
+        "jawaban": "Bpk Tata Sambada"
+      },
+      {
+        "id": 25,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Heru Priyanto, S.T., M.B.A. di YPT saat ini menjabat sebagai apa?",
+        "jawaban": "VP Higher Education Development YPT"
+      },
+      {
+        "id": 26,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sebutkan judul lagu yang paling sering dinyanyikan Bapak Ali Rokhman, mantan Rektor ITTP?",
+        "jawaban": "Mengganggu Kamu - Anji"
+      }
+    ]
+  },
+  "rebutan_2": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 27,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Di hari Jum'at, jam berapakah Unit Keuangan sudah tidak menerima lagi LPJ maupun pengajuan?",
+        "jawaban": "Pukul 11:30"
+      },
+      {
+        "id": 28,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Di jalan apa Menara Teratai Purwokerto berada?",
+        "jawaban": "Jalan Bung Karno"
+      },
+      {
+        "id": 29,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Berapa harga Donat Pingkan Mambo yang sempat viral?",
+        "jawaban": "200ribu/lusin"
+      },
+      {
+        "id": 30,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Tebak judul lagu: *setel lagu terserah ucup",
+        "jawaban": ""
+      },
+      {
+        "id": 31,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Siapa nama lengkap Megawati Soekarnoputri?",
+        "jawaban": "Diah Permata Megawati Setiawati Soekarnoputri"
+      },
+      {
+        "id": 32,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Apa nama maskot/simbol virtual Telkom University di metaverse?",
+        "jawaban": "Tely"
+      },
+      {
+        "id": 33,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Usia Ani dan Budi 2:3. Jika jumlah usia mereka 25 tahun, maka usia Ani adalah …",
+        "jawaban": "10 tahun"
+      },
+      {
+        "id": 34,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Di jalan apa kampus Telkom University Surabaya berada?",
+        "jawaban": "Ketintang"
+      },
+      {
+        "id": 35,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Nama kementerian yang menaungi pendidikan tinggi di Indonesia saat ini adalah",
+        "jawaban": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi"
+      },
+      {
+        "id": 36,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Perhatikan cuplikan lagu berikut:\n    “Dan bila semua tercipta\n    Hanya untukku merasakan\n    Semua yang tercipta\n    Hampa hidup terasa”\nadalah bagian dari lagu berjudul:",
+        "jawaban": "Bintang di Surga (Peterpan)"
+      }
+    ]
+  },
+  "rebutan_3": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 37,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Selain Polisi tidur, siapakah Polisi yang disebut Gus Dur Polisi paling jujur di Indonesia?",
+        "jawaban": "Hoegeng"
+      },
+      {
+        "id": 38,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sarpra apakah yang paling banyak mendapatkan komplain negatif dari mahasiswa?",
+        "jawaban": "area parkir"
+      },
+      {
+        "id": 39,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Berapa target mahasiswa Telkom University Kampus Purwokerto Tahun 2025?",
+        "jawaban": "1600"
+      },
+      {
+        "id": 40,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Siapakah Bapak Koperasi Indonesia?",
+        "jawaban": "Mohammad Hatta"
+      }
+    ]
+  },
+  "rebutan_final": {
+    "poin": 10,
+    "minus": 0,
+    "data": [
+      {
+        "id": 41,
+        "isAnswered": true,
+        "type": "uraian",
+        "soal": "Apa lawan kata dari 'haus'?",
+        "jawaban": "palum"
+      },
+      {
+        "id": 42,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sebuah rapat dimulai pukul 09.15 dan berakhir pukul 11.50. Berapa lama rapat tersebut berlangsung?",
+        "jawaban": "2 jam 35 menit"
+      },
+      {
+        "id": 43,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sebuah mesin fotokopi butuh 5 menit untuk mengcopy 50 lembar. Berapa menit dibutuhkan untuk menggandakan 150 lembar dengan mesin yang sama?",
+        "jawaban": "15 menit"
+      },
+      {
+        "id": 44,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Tahun berapa IT Telkom Surabaya bergabung dengan Telkom University?",
+        "jawaban": "2023"
+      },
+      {
+        "id": 45,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Seekor ayam bertelur satu butir setiap hari Rabu dan Jumat. Berapa butir telur yang dihasilkan 4 ayam selama 2 bulan?",
+        "jawaban": "64 Butir"
+      },
+      {
+        "id": 46,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Apa yang selalu naik tapi tidak pernah turun?",
+        "jawaban": "umur"
+      },
+      {
+        "id": 47,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Jika besok adalah dua hari sebelum Jumat, maka hari ini hari apa?",
+        "jawaban": "Selasa"
+      },
+      {
+        "id": 48,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sebuah bus membawa 40 penumpang. Di halte pertama, 1/4 penumpang turun, lalu 8 orang naik. Berapa penumpang di bus sekarang?",
+        "jawaban": "38 orang"
+      },
+      {
+        "id": 49,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Ada 5 orang pejabat saling bertemu. Setiap orang salaman sekali saja dengan setiap orang lainnya. Berapa total jabat tangan yang terjadi?",
+        "jawaban": "10 kali"
+      },
+      {
+        "id": 50,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Siapa nama dokter yang menjadi korban dugaan pemerasan Nikita Mirzani?",
+        "jawaban": "dr. Reza Gladys"
+      },
+      {
+        "id": 51,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Di Tel-U, ada 5 karyawan yang masuk kerja dengan selisih masa kerja 3 tahun antara satu dengan yang lain. Jika masa kerja karyawan paling baru adalah 2 tahun, berapa masa kerja karyawan tertua?",
+        "jawaban": "14 Tahun"
+      },
+      {
+        "id": 52,
+        "isAnswered": false,
+        "type": "uraian",
+        "soal": "Sebelum ada NDE, apa media komunikasi formal yang digunakan di ITTP?",
+        "jawaban": "memo online"
+      }
+    ]
+  }
+}
