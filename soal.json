@@ -1,122 +1,122 @@
 [
-    {
-        "id": 1,
-        "soal": "Ibukota Indonesia?",
-        "jawaban": "Jakarta",
-        "isAnswered": false
-    },
-    {
-        "id": 2,
-        "soal": "Simbol kimia air?",
-        "jawaban": "H2O",
-        "isAnswered": false
-    },
-    {
-        "id": 3,
-        "soal": "Presiden pertama RI?",
-        "jawaban": "Soekarno",
-        "isAnswered": false
-    },
-    {
-        "id": 4,
-        "soal": "2 + 2 = ?",
-        "jawaban": "4",
-        "isAnswered": false
-    },
-    {
-        "id": 5,
-        "soal": "Bahasa resmi Jepang?",
-        "jawaban": "Jepang",
-        "isAnswered": false
-    },
-    {
-        "id": 6,
-        "soal": "Planet terbesar?",
-        "jawaban": "Jupiter",
-        "isAnswered": false
-    },
-    {
-        "id": 7,
-        "soal": "Ibu kota Jawa Barat?",
-        "jawaban": "Bandung",
-        "isAnswered": false
-    },
-    {
-        "id": 8,
-        "soal": "Lambang bilangan pi?",
-        "jawaban": "π",
-        "isAnswered": false
-    },
-    {
-        "id": 9,
-        "soal": "Warna bendera Indonesia?",
-        "jawaban": "Merah putih",
-        "isAnswered": false
-    },
-    {
-        "id": 10,
-        "soal": "Organ untuk bernapas?",
-        "jawaban": "Paru-paru",
-        "isAnswered": false
-    },
-    {
-        "id": 11,
-        "soal": "Ibukota Inggris?",
-        "jawaban": "London",
-        "isAnswered": false
-    },
-    {
-        "id": 12,
-        "soal": "Penemu lampu pijar?",
-        "jawaban": "Edison",
-        "isAnswered": false
-    },
-    {
-        "id": 13,
-        "soal": "Mata uang Jepang?",
-        "jawaban": "Yen",
-        "isAnswered": false
-    },
-    {
-        "id": 14,
-        "soal": "Gunung tertinggi dunia?",
-        "jawaban": "Everest",
-        "isAnswered": false
-    },
-    {
-        "id": 15,
-        "soal": "Bahasa resmi Prancis?",
-        "jawaban": "Prancis",
-        "isAnswered": false
-    },
-    {
-        "id": 16,
-        "soal": "Simbol karbon?",
-        "jawaban": "C",
-        "isAnswered": false
-    },
-    {
-        "id": 17,
-        "soal": "Hari kemerdekaan RI?",
-        "jawaban": "17 Agustus",
-        "isAnswered": false
-    },
-    {
-        "id": 18,
-        "soal": "Alat ukur suhu?",
-        "jawaban": "Termometer",
-        "isAnswered": false
-    },
-    {
-        "id": 19,
-        "soal": "Benua terbesar?",
-        "jawaban": "Asia",
-        "isAnswered": false
-    },
-    {
-        "id": 20,
-        "soal": "Ibu kota Malaysia?",
-        "jawaban": "Kuala Lumpur",
-        "isAnswered": false
-    }
+  {
+    "id": 1,
+    "soal": "Ibukota Indonesia?",
+    "jawaban": "Jakarta",
+    "isAnswered": true
+  },
+  {
+    "id": 2,
+    "soal": "Simbol kimia air?",
+    "jawaban": "H2O",
+    "isAnswered": true
+  },
+  {
+    "id": 3,
+    "soal": "Presiden pertama RI?",
+    "jawaban": "Soekarno",
+    "isAnswered": false
+  },
+  {
+    "id": 4,
+    "soal": "2 + 2 = ?",
+    "jawaban": "4",
+    "isAnswered": false
+  },
+  {
+    "id": 5,
+    "soal": "Bahasa resmi Jepang?",
+    "jawaban": "Jepang",
+    "isAnswered": true
+  },
+  {
+    "id": 6,
+    "soal": "Planet terbesar?",
+    "jawaban": "Jupiter",
+    "isAnswered": true
+  },
+  {
+    "id": 7,
+    "soal": "Ibu kota Jawa Barat?",
+    "jawaban": "Bandung",
+    "isAnswered": true
+  },
+  {
+    "id": 8,
+    "soal": "Lambang bilangan pi?",
+    "jawaban": "π",
+    "isAnswered": true
+  },
+  {
+    "id": 9,
+    "soal": "Warna bendera Indonesia?",
+    "jawaban": "Merah putih",
+    "isAnswered": false
+  },
+  {
+    "id": 10,
+    "soal": "Organ untuk bernapas?",
+    "jawaban": "Paru-paru",
+    "isAnswered": true
+  },
+  {
+    "id": 11,
+    "soal": "Ibukota Inggris?",
+    "jawaban": "London",
+    "isAnswered": true
+  },
+  {
+    "id": 12,
+    "soal": "Penemu lampu pijar?",
+    "jawaban": "Edison",
+    "isAnswered": true
+  },
+  {
+    "id": 13,
+    "soal": "Mata uang Jepang?",
+    "jawaban": "Yen",
+    "isAnswered": true
+  },
+  {
+    "id": 14,
+    "soal": "Gunung tertinggi dunia?",
+    "jawaban": "Everest",
+    "isAnswered": false
+  },
+  {
+    "id": 15,
+    "soal": "Bahasa resmi Prancis?",
+    "jawaban": "Prancis",
+    "isAnswered": true
+  },
+  {
+    "id": 16,
+    "soal": "Simbol karbon?",
+    "jawaban": "C",
+    "isAnswered": true
+  },
+  {
+    "id": 17,
+    "soal": "Hari kemerdekaan RI?",
+    "jawaban": "17 Agustus",
+    "isAnswered": true
+  },
+  {
+    "id": 18,
+    "soal": "Alat ukur suhu?",
+    "jawaban": "Termometer",
+    "isAnswered": false
+  },
+  {
+    "id": 19,
+    "soal": "Benua terbesar?",
+    "jawaban": "Asia",
+    "isAnswered": true
+  },
+  {
+    "id": 20,
+    "soal": "Ibu kota Malaysia?",
+    "jawaban": "Kuala Lumpur",
+    "isAnswered": false
+  }
 ]

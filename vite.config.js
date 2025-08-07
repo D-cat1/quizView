@@ -4,5 +4,10 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
 	plugins: [tailwindcss(),
-	sveltekit()]
+	sveltekit()],
+	server: {
+		watch: {
+			ignored: ['**/babak.json', '**/paket_soal.json']
+		}
+	}
 });

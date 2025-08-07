@@ -4,6 +4,9 @@ import { Server } from 'socket.io';
 import { readFileSync, writeFileSync } from 'node:fs';
 
 let devices = [];
+function getTeamList() {
+  return JSON.parse(readFileSync('./team.json', 'utf-8'));
+}
 
 const app = express();
 const server = createServer(app);
@@ -15,83 +18,102 @@ const io = new Server(server, {
 });
 
 
-function getRandomSoal() {
-  const soalData = JSON.parse(readFileSync('./soal.json', 'utf-8'));
-  const randomIndex = Math.floor(Math.random() * soalData.length);
-  return soalData[randomIndex];
-}
 
-
-function markSoalAsAnswered(id) {
-  const soalData = JSON.parse(readFileSync('./soal.json', 'utf-8'));
-  const updated = soalData.map((s) => {
-    if (s.id === id) {
-      return { ...s, isAnswered: true };
-    }
-    return s;
-  });
-  writeFileSync('./soal.json', JSON.stringify(updated, null, 2));
-  return updated.find((s) => s.id === id);
-}
 
 io.on('connection', (socket) => {
   console.log('a user connected');
 
-  socket.on("getsoal", () => {
-    const soal = getRandomSoal();
-    io.emit("showSoal", soal);
-  });
-  
-  socket.on("clearSoal", () => {
-    io.emit("showSoal", {});
-  });
-  // Listener baru untuk menandai soal sudah dijawab
-  socket.on("markAsAnswered", (id) => {
-    const updatedSoal = markSoalAsAnswered(id);
-    console.log(`Soal dengan ID ${id} ditandai sebagai answered.`);
-    io.emit("soalUpdated", updatedSoal); // Broadcast info ke semua klien (opsional)
-  });
-
-  socket.on("message", (msg) => {
-    console.log('message: ' + msg);
-    io.emit("message", msg);
+  socket.on("reqBabak", () => {
+    const babakData = JSON.parse(readFileSync('./babak.json', 'utf-8'));
+    const keys = Object.keys(babakData);
+    io.emit("getBabak", keys);
   });
 
   socket.on("disconnect", () => {
     console.log('user disconnected');
   });
 
-  socket.on("refreshDevices", () => {
-    devices = [];
-    console.log("Refreshing connected devices...");
-    io.emit("requestDevices");
+  socket.on("reqTeam", (key) => {
+    const babakData = JSON.parse(readFileSync('./babak.json', 'utf-8'));
+    const teams = babakData[key] || [];
+    io.emit("getTeam", teams);
   });
 
-  socket.on("requestDevices", (slug) => {
-    console.log("Requesting devices for slug:", slug);
-    devices.push(slug);
-    io.emit("refreshDevices", devices);
+  socket.on("reqPaketSoal", () => {
+    const paketSoalData = JSON.parse(readFileSync('./paket_soal.json', 'utf-8'));
+    const keys = Object.keys(paketSoalData);
+    io.emit("getPaketSoal", keys);
   });
 
-  socket.on("sendJawab", (data) => {
-    if (data == 'True') {
-      console.log('jawab: 1' + data);
-      io.emit("jawab", {
-        status: 'correct',
-        reason: 'benar',
-        data: { foo: 123 }
-      });
+  socket.on("reqSoal", (key) => {
+    const paketSoalData = JSON.parse(readFileSync('./paket_soal.json', 'utf-8'));
+    const paket = paketSoalData[key];
+    if (paket) {
+      const filteredData = {
+        ...paket,
+        data: paket.data
+          .map((soal, i) => ({ ...soal, originalIndex: i }))
+          .filter(soal => soal.isAnswered === false)
+      };
+      io.emit("getSoal", filteredData);
     } else {
-      console.log('jawab: 2' + data);
-      io.emit("jawab", {
-        status: 'incorrect',
-        reason: 'salah',
-        data: { foo: 123 }
-      });
+      io.emit("getSoal", {});
+    }
+  });
+
+  socket.on("reqProgramSoal", (data) => {
+    console.log(data)
+    io.emit("getProgramSoal", data);
+  });
+
+  socket.on("unshowProgramSoal", () => {
+    io.emit("unshowProgramSoal");
+  });
+  
+  socket.on("reqChange", (data) => {
+    io.emit("showChange", data)
+  })
+
+  socket.on("reqPoinTeam", (data) => {
+    console.log("Received reqPoinTean:", data);
+    const { babak, index, poin } = data;
+
+    const babakData = JSON.parse(readFileSync('./babak.json', 'utf-8'));
+    if (babakData[babak] && babakData[babak][index]) {
+      babakData[babak][index].points += poin;
+      writeFileSync('./babak.json', JSON.stringify(babakData, null, 2));
+    }
+
+    io.emit("displayPoin", data)
+    const teams = babakData[babak] || [];
+    io.emit("getTeam", teams);
+
+  });
+
+  socket.on("reqIsAnswered", ({ paket, index }) => {
+    console.log("trigga")
+    const paketSoalData = JSON.parse(readFileSync('./paket_soal.json', 'utf-8'));
+    if (paketSoalData[paket] && paketSoalData[paket].data[index]) {
+      paketSoalData[paket].data[index].isAnswered = true;
+      writeFileSync('./paket_soal.json', JSON.stringify(paketSoalData, null, 2));
+      const dtpaket = paketSoalData[paket];
+      if (dtpaket) {
+       const filteredData = {
+        ...dtpaket,
+        data: dtpaket.data
+          .map((soal, i) => ({ ...soal, originalIndex: i }))
+          .filter(soal => soal.isAnswered === false)
+      };
+        io.emit("getSoal", filteredData);
+      } else {
+        io.emit("getSoal", {});
+      }
     }
   });
 });
 
 server.listen(3000, () => {
   console.log('server running at http://localhost:3000');
+
+
 });
