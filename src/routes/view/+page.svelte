@@ -56,7 +56,11 @@
 
         socket.on("showChange", ({ team, mode }) => {
             showOverlay = true;
-            overlayMessage = `${team.name} - Mode: ${mode}`;
+            if (mode == 'utamas') {
+                overlayMessage = `Waktunya ${team.name} Menjawab`;
+            } else {
+                overlayMessage = `Hak Menjawab dilempar ke ${team.name} `;
+            }
             setTimeout(() => {
                 showOverlay = false;
                 overlayMessage = "";
@@ -164,9 +168,9 @@
                 class="fixed inset-0 bg-black/40 bg-opacity-60 flex items-center justify-center z-50"
             >
                 <div
-                    class="bg-white text-black text-2xl font-bold p-6 rounded shadow-xl"
+                    class="bg-white flex justify-center items-center w-full h-36 text-black text-2xl font-bold p-6 rounded shadow-xl"
                 >
-                    {overlayMessage}
+                   <p class="text-4xl"> {overlayMessage}</p>
                 </div>
             </div>
         {/if}
