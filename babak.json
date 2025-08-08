@@ -4,19 +4,19 @@
       "id": 1,
       "huruf": "1",
       "name": "Bid. 1",
-      "points": 10
+      "points": 0
     },
     {
       "id": 2,
       "huruf": "2",
       "name": "Direktorat",
-      "points": 20
+       "points": 0
     },
     {
       "id": 3,
       "huruf": "3",
       "name": "Ged. IOT",
-      "points": 10
+       "points": 0
     }
   ],
   "match2": [

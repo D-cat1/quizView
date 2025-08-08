@@ -15,7 +15,7 @@
     let overlayMessage = $state("");
 
     let socket;
-    let countdown = $state(0); // initial countdown seconds
+    let countdown = $state(0); 
     let isCountingDown = $state(false);
     let timeoutCountdown = $state(0);
 
