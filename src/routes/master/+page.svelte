@@ -541,13 +541,43 @@
             {/if}
             <div class="mt-4 border p-2">
                 <p class="font-semibold">Sound Effect</p>
-                <div class=" mt-4 flex items-center gap-x-2">
+                <div class=" mt-4 flex flex-wrap items-center gap-x-2">
                     <button class="bg-green-400 text-black p-2" onclick={() => {
                         socket.emit("playEffect", "benar")
                     }}>Benar</button>
                     <button class="bg-red-400 text-black p-2" onclick={() => {
                         socket.emit("playEffect", "salah")
                     }}>Salah</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "timeout")
+                    }}>Timeout</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "soal_lewatkataindah")
+                    }}>Lewat Kata Indah Soal</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "soal_semogalagucinta")
+                    }}>Semoga Lagu Cinta Soal</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "soal_egodanairmata")
+                    }}>Ego dan Air mata Soal</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "soal_teringatserusuaramu")
+                    }}>Teringat seru Soal</button>
+
+
+
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "lewatkataindah")
+                    }}>Lewat Kata Indah</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "semogalagucinta")
+                    }}>Semoga Lagu Cinta</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "egodanairmata")
+                    }}>Ego dan Air mata</button>
+                    <button class="bg-amber-50 text-black p-2" onclick={() => {
+                        socket.emit("playEffect", "teringatserusuaramu")
+                    }}>Teringat seru</button>
                 </div>
             </div>
         </div>

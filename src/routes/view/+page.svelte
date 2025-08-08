@@ -4,6 +4,7 @@
     import { fly, fade, scale } from "svelte/transition";
 
     let message = $state("");
+    let isLoading = $state(true);
     let highesid = $state(0);
     let nowId = $state(0);
     let datasoal = $state({});
@@ -44,7 +45,73 @@
     let timeoutInterval = null;
     let startTimeout = null;
 
-    onMount(() => {
+    async function preloadAssets(urls) {
+        let loaded = 0;
+        const total = urls.length;
+
+        await Promise.all(
+            urls.map((url) => {
+                return new Promise((resolve) => {
+                    const ext = url.split(".").pop().toLowerCase();
+
+                    if (["png", "jpg", "jpeg", "svg"].includes(ext)) {
+                        const img = new Image();
+                        img.onload = img.onerror = () => {
+                            loaded++;
+                            resolve();
+                        };
+                        img.src = url;
+                    } else if (["mp4", "webm"].includes(ext)) {
+                        const video = document.createElement("video");
+                        video.onloadeddata = video.onerror = () => {
+                            loaded++;
+                            resolve();
+                        };
+                        video.src = url;
+                    } else if (["ogg", "m4a", "mp3", "wav"].includes(ext)) {
+                        const audio = new Audio();
+                        audio.onloadeddata = audio.onerror = () => {
+                            loaded++;
+                            resolve();
+                        };
+                        audio.src = url;
+                    } else {
+                        loaded++;
+                        resolve();
+                    }
+                });
+            }),
+        );
+    }
+
+    onMount(async () => {
+        await preloadAssets([
+            
+            "/benar.mp3",
+            "/bg-lcc.png",
+            "/bg.mp4",
+            "/cerdas.png",
+            "/correct.mp3",
+            "/favicon.svg",
+            "/hei.png",
+            "/hogeng.ogg",
+            "/salah.mp3",
+            "/stars.png",
+            "/timeout.mp3",
+            "/wrong.mp3",
+
+            
+            "/music/egodanairmata.MP3",
+            "/music/lewatkataindah.MP3",
+            "/music/semogalagucinta.MP3",
+            "/music/soal_egodanairmata.m4a",
+            "/music/soal_lewatkataindah.m4a",
+            "/music/soal_semogalagucinta.m4a",
+            "/music/soal_teringatserusuaraku.m4a",
+            "/music/teringatserusuaraku.MP3",
+        ]);
+        isLoading = false;
+
         startTimeout = () => {
             timeoutInterval = setInterval(() => {
                 console.log("ahjs");
@@ -52,8 +119,6 @@
                     console.log();
                     clearInterval(timeoutInterval);
                     timeoutInterval = null;
-                    var audio = new Audio("/timeout.mp3");
-                    audio.play();
                 } else {
                     timeoutCountdown -= 1;
                 }
@@ -108,11 +173,29 @@
 
         socket.on("playEffect", (name) => {
             if (name == "benar") {
-                var audio = new Audio("/benar.mp3");
-                audio.play();
+                new Audio("/benar.mp3").play();
             } else if (name == "salah") {
-                var audio = new Audio("/salah.mp3");
-                audio.play();
+                new Audio("/salah.mp3").play();
+            } else if (name == "timeout") {
+                new Audio("/timeout.mp3").play();
+
+                // ===== MUSIC =====
+            } else if (name == "egodanairmata") {
+                new Audio("/music/egodanairmata.mp3").play();
+            } else if (name == "lewatkataindah") {
+                new Audio("/music/lewatkataindah.mp3").play();
+            } else if (name == "semogalagucinta") {
+                new Audio("/music/semogalagucinta.mp3").play();
+            } else if (name == "soal_egodanairmata") {
+                new Audio("/music/soal_egodanairmata.m4a").play();
+            } else if (name == "soal_lewatkataindah") {
+                new Audio("/music/soal_lewatkataindah.m4a").play();
+            } else if (name == "soal_semogalagucinta") {
+                new Audio("/music/soal_semogalagucinta.m4a").play();
+            } else if (name == "soal_teringatserusuaraku") {
+                new Audio("/music/soal_teringatserusuaraku.m4a").play();
+            } else if (name == "teringatserusuaraku") {
+                new Audio("/music/teringatserusuaraku.mp3").play();
             }
         });
 
@@ -179,6 +262,19 @@
         autoplay
     ></video>
     <div class="w-full h-full z-20">
+        {#if isLoading}
+            <div
+                class="fixed inset-0 bg-black/40 bg-opacity-60 flex items-center justify-center z-50"
+                transition:fade={{ delay: 100 }}
+            >
+                <div
+                    class="bg-white flex justify-center items-center w-full h-52 text-black text-2xl font-bold p-6 rounded shadow-xl"
+                    transition:fly={{ x: -200 }}
+                >
+                    <p class="text-6xl">Memuat Aset, Harap Tunggu...</p>
+                </div>
+            </div>
+        {/if}
         {#if showOverlay}
             <div
                 class="fixed inset-0 bg-black/40 bg-opacity-60 flex items-center justify-center z-50"
