@@ -69,7 +69,7 @@ io.on('connection', (socket) => {
   socket.on("unshowProgramSoal", () => {
     io.emit("unshowProgramSoal");
   });
-  
+
   socket.on("reqChange", (data) => {
     io.emit("showChange", data)
   })
@@ -99,6 +99,18 @@ io.on('connection', (socket) => {
     io.emit("playEffect", name)
   })
 
+
+  socket.on("reqWinner", (babak) => {
+    console.log(babak)
+    const babakData = JSON.parse(readFileSync('./babak.json', 'utf-8'));
+    const teams = babakData[babak] || [];
+    const highest = teams.reduce((max, item) =>
+      item.points > max.points ? item : max
+    );
+    io.emit("showWinner", highest)
+
+  })
+
   socket.on("reqIsAnswered", ({ paket, index }) => {
     console.log("trigga")
     const paketSoalData = JSON.parse(readFileSync('./paket_soal.json', 'utf-8'));
@@ -107,12 +119,12 @@ io.on('connection', (socket) => {
       writeFileSync('./paket_soal.json', JSON.stringify(paketSoalData, null, 2));
       const dtpaket = paketSoalData[paket];
       if (dtpaket) {
-       const filteredData = {
-        ...dtpaket,
-        data: dtpaket.data
-          .map((soal, i) => ({ ...soal, originalIndex: i }))
-          .filter(soal => soal.isAnswered === false)
-      };
+        const filteredData = {
+          ...dtpaket,
+          data: dtpaket.data
+            .map((soal, i) => ({ ...soal, originalIndex: i }))
+            .filter(soal => soal.isAnswered === false)
+        };
         io.emit("getSoal", filteredData);
       } else {
         io.emit("getSoal", {});

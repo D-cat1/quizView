@@ -5,6 +5,8 @@
 
     let message = $state("");
     let isLoading = $state(true);
+    let currentWin = $state("");
+    let winnerShow = $state(false);
     let highesid = $state(0);
     let nowId = $state(0);
     let datasoal = $state({});
@@ -126,7 +128,8 @@
         };
 
         console.log("Connecting to server...");
-        socket = io("http://10.192.8.27:3000");
+        // socket = io("http://10.192.8.27:3000");
+        socket = io("http://localhost:3000");
 
         socket.on("connect", () => {
             console.log("Connected to server");
@@ -148,7 +151,14 @@
                 overlayMessage = "";
             }, 3000);
         });
-
+        socket.on("showWinner", (highest) => {
+           currentWin = highest.name
+            winnerShow = true;
+            setTimeout(() => {
+                winnerShow = false;
+                currentWin = ""
+            }, 3000);
+        })
         socket.on("getProgramSoal", (programData) => {
             datasoal = programData;
             countdown = programData.isDelay ? programData.delay : 0;
@@ -262,6 +272,19 @@
         autoplay
     ></video>
     <div class="w-full h-full z-20">
+        {#if winnerShow}
+            <div
+                class="fixed inset-0 bg-black/40 bg-opacity-60 flex items-center justify-center z-50"
+                transition:fade={{ delay: 100 }}
+            >
+                <div
+                    class="bg-amber-300 flex justify-center items-center w-full h-52 text-amber-700 text-2xl font-bold p-6 rounded shadow-xl"
+                    transition:fly={{ x: -200 }}
+                >
+                    <p class="text-6xl">Pemenang Match ini adalah : {currentWin}</p>
+                </div>
+            </div>
+        {/if}
         {#if isLoading}
             <div
                 class="fixed inset-0 bg-black/40 bg-opacity-60 flex items-center justify-center z-50"

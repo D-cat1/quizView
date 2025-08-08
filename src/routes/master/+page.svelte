@@ -393,7 +393,9 @@
                     {/each}
                 </ul>
                 {#if selectedBabak != ""}
-                    <button class="bg-amber-200 text-black p-1"
+                    <button class="bg-amber-200 text-black p-1" onclick={() => {
+                        socket.emit("reqWinner", selectedBabak)
+                    }}
                         >Show Winner</button
                     >
                 {/if}
