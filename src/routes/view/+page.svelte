@@ -128,8 +128,8 @@
         };
 
         console.log("Connecting to server...");
-        // socket = io("http://10.192.8.27:3000");
-        socket = io("http://localhost:3000");
+        socket = io("http://10.192.8.27:3000");
+        // socket = io("http://localhost:3000");
 
         socket.on("connect", () => {
             console.log("Connected to server");
