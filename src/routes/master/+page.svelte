@@ -541,7 +541,7 @@
             {/if}
             <div class="mt-4 border p-2">
                 <p class="font-semibold">Sound Effect</p>
-                <div class=" mt-4 flex flex-wrap items-center gap-x-2">
+                <div class=" mt-4 flex flex-wrap items-center gap-x-2 gap-y-2">
                     <button class="bg-green-400 text-black p-2" onclick={() => {
                         socket.emit("playEffect", "benar")
                     }}>Benar</button>

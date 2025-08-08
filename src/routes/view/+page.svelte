@@ -101,14 +101,14 @@
             "/wrong.mp3",
 
             
-            "/music/egodanairmata.MP3",
-            "/music/lewatkataindah.MP3",
-            "/music/semogalagucinta.MP3",
+            "/music/egodanairmata.mp3",
+            "/music/lewatkataindah.mp3",
+            "/music/semogalagucinta.mp3",
             "/music/soal_egodanairmata.m4a",
             "/music/soal_lewatkataindah.m4a",
             "/music/soal_semogalagucinta.m4a",
-            "/music/soal_teringatserusuaraku.m4a",
-            "/music/teringatserusuaraku.MP3",
+            "/music/soal_teringatserusuaramu.m4a",
+            "/music/teringatserusuaramu.mp3",
         ]);
         isLoading = false;
 
@@ -192,10 +192,10 @@
                 new Audio("/music/soal_lewatkataindah.m4a").play();
             } else if (name == "soal_semogalagucinta") {
                 new Audio("/music/soal_semogalagucinta.m4a").play();
-            } else if (name == "soal_teringatserusuaraku") {
-                new Audio("/music/soal_teringatserusuaraku.m4a").play();
-            } else if (name == "teringatserusuaraku") {
-                new Audio("/music/teringatserusuaraku.mp3").play();
+            } else if (name == "soal_teringatserusuaramu") {
+                new Audio("/music/soal_teringatserusuaramu.m4a").play();
+            } else if (name == "teringatserusuaramu") {
+                new Audio("/music/teringatserusuaramu.mp3").play();
             }
         });
 
@@ -268,7 +268,7 @@
                 transition:fade={{ delay: 100 }}
             >
                 <div
-                    class="bg-white flex justify-center items-center w-full h-52 text-black text-2xl font-bold p-6 rounded shadow-xl"
+                    class="bg-red-400 flex justify-center items-center w-full h-52 text-red-950 text-2xl font-bold p-6 rounded shadow-xl"
                     transition:fly={{ x: -200 }}
                 >
                     <p class="text-6xl">Memuat Aset, Harap Tunggu...</p>
